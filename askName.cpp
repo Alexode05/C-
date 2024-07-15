@@ -13,4 +13,5 @@ int main() {
     std:: cin >> age;
 
     std:: cout << "Hello " << name << ", you are " << age << " years old" << '\n';
+    return 0;
 }
