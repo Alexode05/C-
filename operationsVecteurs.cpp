@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+#include <cmath>
+#include <vector>
 using namespace std;
-
 
 int main() {
     string dimension;
