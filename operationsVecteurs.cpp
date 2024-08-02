@@ -15,9 +15,14 @@ int main() {
         cin >> dimension;
     }while (dimension != "2D" && dimension != "3D");
     cout << "What operation do you want to perform ?" << '\n';
-    cout << "1. Norm" << '\n' << "2. Saclar product" << '\n' << "3. Vectorial product " << '\n';
+    cout << "1. Norm" << '\n' << "2. Saclar product" << '\n' << "3. Vectorial product (only for 3D) " << '\n';
     do{
         cin >> opertation;
-    }while(opertation !=1 && opertation !=2 && opertation !=3);
+    }while(opertation !=1 && opertation !=2 && opertation !=3 || (dimension == "2D" && opertation == 3));
+
+
+
+
     return 0;
 }
+
